@@ -70,32 +70,13 @@ See [PHP][] for info on PHP requirements.
 ### MySQL
 
 ```bash
-mysql -u <database root user or database owner name> -p
+mysql --version
 ```
-
-For example:
-
-```bash
-mysql -u magento -p
-```
-
 You must run MySQL version 5.7.9 or later as the following result indicates:
 
 ```terminal
-Welcome to the MySQL monitor.  Commands end with ; or \g.
-Your MySQL connection id is 871
-Server version: 5.7.9 MySQL Community Server (GPL)
-
-Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
-
-Oracle is a registered trademark of Oracle Corporation and/or its
-affiliates. Other names may be trademarks of their respective
-owners.
+mysql  Ver 8.0.21 for Linux on x86_64 (MySQL Community Server - GPL)
 ```
-
-Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
-
-Enter `exit` at the `mysql>` prompt to exit.
 
 To install or upgrade MySQL, see [MySQL]({{page.baseurl}}/install-gde/prereq/mysql.html).
 
